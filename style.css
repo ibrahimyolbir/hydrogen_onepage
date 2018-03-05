@@ -1,0 +1,111 @@
+.page_content_margin {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.background_layout {
+    width: 100%;
+    position: absolute; 
+    z-index: -1;
+    filter: blur(3px);
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 41%, 0 59%);
+    clip-path: polygon(0 0, 100% 0, 100% 41%, 0 59%);
+}
+nav {
+    padding: 20px;
+
+}
+.nav_ul {
+ 
+}
+.nav_ul li {
+    display: inline-block;
+    margin-left: 19px; }
+.nav_ul li a {
+      font-size: 13px;
+      color: white;
+ }
+.right_content_img {
+    height: 300px;
+    margin-top: 50px;
+}
+
+header ul a {
+    color: #ffffff;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.left_content h2 {
+    color: #ffffff;
+    margin-top: 50px;
+}
+
+.left_content p {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+.buton {
+    padding: 7px 20px;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    font-size: 15px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-decoration: none;
+ }
+ .buton:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+ }
+.buton_nav {
+margin-top: px;
+.overvie_text {}
+}
+.overvie_text {
+    padding: 10px;
+    text-align: center;
+    margin-top: 133px;
+}
+#overvie h3 {
+    font-family: 'Dosis', sans-serif;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    color: #8d8585
+}
+#features_page {
+    height: 400px;
+    background-color: crimson;
+    margin-top: 400px;
+}
+#screenshots_page {
+    height: 400px;
+    background-color: rgb(61, 39, 100);
+    margin-top: 40px;
+}
+#testimonial_page {
+    height: 400px;
+    background-color: rgb(220, 20, 193);
+    margin-top: 40px;
+}
+#team_page {
+    height: 400px;
+    background-color: rgb(50, 20, 220);
+    margin-top: 40px;
+}
+#pricing_page {
+    height: 400px;
+    background-color: rgb(133, 220, 20);
+    margin-top: 40px;
+}
+#blog_page {
+    height: 400px;
+    background-color: rgb(20, 207, 220);
+    margin-top: 40px;
+}
+#contact_page {
+    height: 400px;
+    background-color: rgb(220, 110, 20);
+    margin-top: 40px;
+}
