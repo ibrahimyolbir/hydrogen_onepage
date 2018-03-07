@@ -29,11 +29,6 @@ nav {
     margin-top: 50px;
 }
 
-header ul a {
-    color: #ffffff;
-    font-weight: bolder;
-    font-size: 20px;
-}
 .left_content h2 {
     color: #ffffff;
     margin-top: 50px;
@@ -61,23 +56,34 @@ header ul a {
  }
 .buton_nav {
 margin-top: px;
-.overvie_text {}
 }
-.overvie_text {
-    padding: 10px;
-    text-align: center;
-    margin-top: 133px;
-}
-#overvie h3 {
-    font-family: 'Dosis', sans-serif;
-    box-sizing: border-box;
-    text-transform: uppercase;
-    color: #8d8585
-}
+
+#overvie h3 {font-family: 'Dosis', sans-serif;box-sizing: border-box;text-transform: uppercase;color: #8d8585}
+#overvie .overvie_text {padding: 10px;text-align: center;margin-top: 133px;}
+#overvie .overvie_text_logo{font-size: 35px;}
+#overvie .overvie_card {padding: 20px;margin-top: 50px;display: -webkit-flex;display: -moz-flex;display: -ms-flex;display: -o-flex;display: flex;align-items: center;justify-content: center;flex-wrap: wrap; }
+#overvie .overvie_card_1 {text-align: center;margin: 45px;width: 100px;}
+#overvie .card_1_title {font-size: 55px;color: RGB(174, 213, 212);margin-bottom: 30px;padding-bottom: 10px;}
+#overvie .card_1_title::after {display: block;content: " ";border-bottom: 3px solid RGB(174, 213, 212);width: 25px;margin: 10px auto; }
+#overvie .overvie_card_2 {text-align: center;margin: 45px;width: 100px;}
+#overvie .card_2_title {font-size: 55px;color: RGB(174, 213, 212);margin-bottom: 30px;padding-bottom: 10px;}
+#overvie .card_2_title::after {display: block;content: " ";border-bottom: 3px solid RGB(174, 213, 212);width: 30px;margin: 10px auto; }
+#overvie .overvie_card_3 {text-align: center;margin: 45px;width: 100px;}
+#overvie .card_3_title {font-size: 55px;color: RGB(174, 213, 212);margin-bottom: 30px;padding-bottom: 10px;}
+#overvie .card_3_title::after {display: block;content: " ";border-bottom: 3px solid RGB(174, 213, 212);width: 30px;margin: 10px auto; }
+#overvie .overvie_card_4 {text-align: center;margin: 45px;width: 100px;}
+#overvie .card_4_title {font-size:55px;color: RGB(174, 213, 212);margin-bottom: 30px;padding-bottom: 10px; }
+#overvie .card_4_title::after {display: block;content: " ";border-bottom: 3px solid RGB(174, 213, 212);width: 30px;margin: 10px auto; }
+
 #features_page {
-    height: 400px;
-    background-color: crimson;
-    margin-top: 400px;
+    height: 400px;   
+}
+#features_page .features_background_layout {
+    width: 100%;
+    position: absolute; 
+    z-index: -1;
+   
+
 }
 #screenshots_page {
     height: 400px;
